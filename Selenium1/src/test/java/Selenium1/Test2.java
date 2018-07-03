@@ -24,4 +24,5 @@ public void testGitHubLogin()
 	driver.get("https://guides.github.com/activities/hello-world/");
 	System.out.println("Done");
 }
+	System.out.println("Done");
 }

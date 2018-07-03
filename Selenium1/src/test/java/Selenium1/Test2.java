@@ -21,6 +21,7 @@ public void testGitHubLogin()
 	String title=driver.getTitle();
 	Assert.assertEquals(title,"GitHub");
 	System.out.println("Continue with test code");
-	driver.get("https://guides.github.com/activities/hello-world/");;
+	driver.get("https://guides.github.com/activities/hello-world/");
+	System.out.println("Done");
 }
 }
